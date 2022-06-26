@@ -12,12 +12,12 @@ rules:
 import pygame
 
 # creating a pygame widow
-WIDTH = 800
+WIDTH = 720
 WIN = pygame.display.set_mode((WIDTH, WIDTH))
 pygame.display.set_caption("Game of Life")
 
 WHITE = (255, 255, 255)
-GREEN = (0, 255, 0)
+GREEN = (25, 252, 93)
 GREY = (128, 128, 128)
 
 pygame.init()
@@ -165,7 +165,7 @@ def update_cells(grid, total_rows, fps):
 
 def main(win, width, fps):
 	space_count = 0
-	ROWS = 50
+	ROWS = 60
 	grid = make_grid(ROWS, width)
 
 	run = True
