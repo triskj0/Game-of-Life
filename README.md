@@ -5,4 +5,5 @@ Everything's happening on a finite two-dimensional orthogonal grid of square cel
 ## Controls
 LEFT CLICK - you can make a cell "active"/"alive" by left-clicking it <br />
 RIGHT CLICK - to "kill" a cell <br />
-SPACE - start/stop
+SPACE - start/stop <br />
+c - clear/reset
