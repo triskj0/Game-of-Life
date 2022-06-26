@@ -1,2 +1,2 @@
 # Game-of-Life
-John Conway
+John Conway's game of life
