@@ -172,7 +172,8 @@ def main(win, width, fps):
 
 				if event.key == pygame.K_c:
 					grid = make_grid(width)
-					space_count += 1
+					if space_count % 2 != 0:
+						space_count += 1
 					for row in range(TOTAL_ROWS):
 						for col in range(TOTAL_ROWS):
 							cell = grid[row][col]
