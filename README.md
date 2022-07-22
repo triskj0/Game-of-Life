@@ -7,3 +7,5 @@ Everything's happening on a finite two-dimensional orthogonal grid of square cel
 *RIGHT CLICK* - to "kill" a cell <br />
 *SPACE* - start/stop <br />
 *c* - clear/reset
+
+![screenshot](https://github.com/triskj0/Game-of-Life/blob/main/gof_img.png)
